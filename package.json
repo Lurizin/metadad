@@ -1,0 +1,21 @@
+{
+  "name": "api-metadados",
+  "version": "1.0.0",
+  "description": "Uma API simples para extrair metadados de imagens usando exiftool.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "exiftool-vendored": "^26.6.0"
+  },
+  "keywords": [
+    "api",
+    "exiftool",
+    "metadados",
+    "node.js"
+  ],
+  "author": "Seu Nome",
+  "license": "MIT"
+}
